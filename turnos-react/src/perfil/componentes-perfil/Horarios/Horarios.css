@@ -1,0 +1,110 @@
+.horarios-contenido {
+    width: 100%;
+    margin: 0 30px;
+    padding: 0 0 50px 0;
+    color: #194D86;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.horarios-contenido h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.horarios-contenido-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+.horarios-contenedor {
+    text-align: center;
+}
+.horarios-contenedor button {
+    background-color: #194D86;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.horarios-contenedor h5 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.horarios-contenedor label {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.horarios-contenedor-desde, .contenedor-duracion {
+    margin: 20px;
+}
+
+.DayPicker {
+    display: inline-block;
+    font-size: 2rem!important;
+    border: 1px #194D86 solid;
+}
+
+
+@media (max-width: 1200px) {
+    .DayPicker {
+        display: inline-block;
+        font-size: 2rem!important;
+        border: 1px #194D86 solid;
+        z-index: -100;
+    }
+
+    .horarios-contenido {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        color: #194D86;
+        background-color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    .horarios-contenido-items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .horarios-contenido h2 {
+        font-size: 36px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0px;
+    }
+    .horarios-contenedor h5 {
+        font-size: 18px;
+        font-weight: lighter;
+        margin: 10px 0;
+    }
+    .horarios-contenedor-desde, .contenedor-cant-turnos, .contenedor-duracion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .horarios-contenedor button {
+        background-color: #194D86;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        padding: 5px 20px;
+        margin: 30px;
+        border-radius: 10px;
+    }
+    #horarios-desde-input, #horarios-hasta-input, #horarios-duracion-input {
+        width: 70vw;
+    }
+
+
+}
+

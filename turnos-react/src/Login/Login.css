@@ -1,0 +1,63 @@
+.general {
+    background-image: "./p-inicio.jpg";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin:0px ;
+    font-family:"Roboto", sans-serif;
+    min-height: 100vh;
+
+}
+
+.custom-title { font-size: 60px; }
+
+.center-login {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0px;
+   padding: 20vh;
+}
+.input-grupo {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 5px 0;
+}
+
+.input-grupo label {
+   margin-right: 30px;
+}
+
+.form-box{
+   display: flex;
+   justify-content: center;
+   height: 20px;
+   width: 200px;
+   text-align: center;
+
+}
+
+
+
+   
+
+.register{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.botons {
+        
+   border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/}

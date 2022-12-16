@@ -1,0 +1,23 @@
+.perfil-navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 11%;
+    height: 75px;
+    background-color: #194D86;
+    margin: 0;
+}
+.perfil-navbar a, .perfil-navbar div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 28px;
+    color: white;
+}
+
+.perfil-navbar div:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/p-turnos.css">
+    <link rel="stylesheet" href="css/menu-perfil-mobile.css">
+    <title>Turnos</title>
+</head>
+<body>
+<nav class="perfil-navbar">
+    <a href="#">Perfil de Usuario</a>
+    <a id="nav-usuario" href="#">PsicCarlos22</a>
+    <div id="menu-icono" href=""><i class="fas fa-bars"></i></div>
+</nav>
+<section class="main">
+    <div id="menu-perfil" class="menu-container">
+        <div class="menu" hidden>
+            <h3 class="menu-titulo">Menu</h3>
+            <a href="./dashboard.html" class="menu-button">
+                <i class="fas fa-chart-line"></i> <h5>Dashboard</h5>
+            </a>
+            <a href="./p-turnos.html" class="menu-button">
+                <i class="far fa-calendar-alt"></i> <h5>Turnos</h5>
+            </a>
+            <a href="./p-horarios.html" class="menu-button">
+                <i class="far fa-clock"></i> <h5>Horarios</h5>
+            </a>
+            <a href="./p-pagos.html" class="menu-button">
+                <i class="fas fa-wallet"></i> <h5>Pagos</h5>
+            </a>
+            <a href="./p-datos.html" class="menu-button">
+                <i class="fas fa-window-maximize"></i> <h5>Datos</h5>
+            </a>
+            <a href="./p-inicio.html" class="menu-button">
+                <i class="fas fa-times-circle"></i> <h5>Salir</h5>
+            </a>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="contenido-tabla">
+            <h2>Turnos</h2>
+            <div class="form-grupo">
+                <label for="fechas-turnos">Seleccionar Fecha</label>
+                <input id="fechas-turnos" type="date"/>
+            </div>
+            <h6>Turnos para el 15/01/21</h6>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Paciente</th>
+                        <th>Razon</th>
+                        <th>Pagado</th>
+                        <th>Modificar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-horario">15:15</td>
+                        <td>Carlos</td>
+                        <td>Consulta</td>
+                        <td>NO</td>
+                        <td class="td-edit"><i class="fas fa-edit"></i></td>
+                        <td class="td-delete"><i class="fas fa-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="td-horario">15:15</td>
+                        <td>Carlos</td>
+                        <td>Consulta</td>
+                        <td>NO</td>
+                        <td class="td-edit"><i class="fas fa-edit"></i></td>
+                        <td class="td-delete"><i class="fas fa-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="td-horario">15:15</td>
+                        <td>Carlos</td>
+                        <td>Consulta</td>
+                        <td>NO</td>
+                        <td class="td-edit"><i class="fas fa-edit"></i></td>
+                        <td class="td-delete"><i class="fas fa-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="td-horario">15:15</td>
+                        <td>Carlos</td>
+                        <td>Consulta</td>
+                        <td>NO</td>
+                        <td class="td-edit"><i class="fas fa-edit"></i></td>
+                        <td class="td-delete"><i class="fas fa-trash-alt"></i></td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+</section>
+
+
+<script src="./js/menu-perfil-mobile.js"></script>
+</body>
+</html>

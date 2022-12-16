@@ -1,0 +1,80 @@
+.pagos-contenido {
+    width: 100%;
+    margin: 0 30px;
+    color: #194D86;
+}
+
+.pagos-contenido-tabla {
+    padding: 30px;
+    background-color: #FFFFFF;
+    width: 90%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.pagos-contenido-tabla h2 {
+    margin: 0px 0 30px 0;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.pagos-contenido-tabla table {
+    width: 100%;
+    text-align: center;
+}
+
+.pagos-contenido-tabla th {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.pagos-contenido-tabla td {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.pagos-td-horario {
+    font-size: 20px;
+}
+
+.pagos-td-edit a{
+    color: green;
+    font-size: 24px;
+}
+
+.pagos-td-delete {
+    color: red;
+    font-size: 24px;
+}
+
+
+@media (max-width: 1200px) {
+    .pagos-contenido {
+        margin: 0;
+        min-height: 90vh;
+        background-color: white;
+    }
+    .pagos-contenido-tabla {
+        padding: 0;
+        width: 100vw;
+        box-shadow: none;
+    }
+    .pagos-contenido-tabla h2 {
+        margin: 0;
+        padding: 30px;
+    }
+    .pagos-contenido-tabla th {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .pagos-contenido-tabla td {
+        font-size: 16px;
+        padding: 20px 10px;
+    }
+
+
+}
+

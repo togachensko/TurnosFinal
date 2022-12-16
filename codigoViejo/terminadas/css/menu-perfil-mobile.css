@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+    .main {
+        margin: 40px 0px;
+        padding: 0;
+    }
+    .menu {
+        padding-top: 20px;
+        text-align: center;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: white;
+        z-index: 1000;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-titulo {
+        display: none;
+    }
+    #menu-icono {
+        display: inline;
+    }
+    #nav-usuario {
+        display: none;
+    }
+}
+
+

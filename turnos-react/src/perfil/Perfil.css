@@ -1,0 +1,16 @@
+.main {
+    margin: 0px 10%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .main {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+}
+

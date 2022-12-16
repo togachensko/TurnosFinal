@@ -1,0 +1,115 @@
+.turnos-contenido {
+    width: 100%;
+    margin: 0 30px;
+    color: #194D86;
+}
+
+
+.turnos-contenido-tabla {
+    padding: 30px;
+    background-color: #FFFFFF;
+    width: 90%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.turnos-contenido-tabla h2 {
+    margin: 0px 0 30px 0;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+.turnos-form-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.turnos-contenido-tabla label {
+    font-size: 24px;
+}
+.turnos-contenido-tabla input {
+    padding: 3px 6px ;
+    margin: 0 20px;
+    border: 1px solid #03045E;
+    border-radius: 5px;
+}
+
+.turnos-contenido-tabla h6 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.turnos-contenido-tabla table {
+    width: 100%;
+    text-align: center;
+}
+
+.turnos-contenido-tabla th {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.turnos-contenido-tabla td {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.turnos-td-horario {
+    font-size: 20px;
+}
+
+.turnos-td-edit i{
+    color: green;
+    font-size: 16px;
+}
+
+.turnos-td-delete {
+    color: red;
+    font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+
+    table {
+        overflow: auto;
+        display: inline-block;
+        width: 100%;
+    }
+    .turnos-contenido {
+        margin: 0;
+        width: 100vw;
+        padding: 0;
+        height: 90vh;
+        background-color: white;
+    }
+    .turnos-contenido-tabla h2 {
+        padding: 24px 0 12px 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .turnos-contenido-tabla h6 {
+        margin: 50px 0 0 0 ;
+    }
+    .turnos-form-grupo {
+        flex-direction: column;
+    }
+    .turnos-contenido-tabla {
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+
+    }
+    .turnos-contenido-tabla th {
+        font-size: 16px;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        font-weight: bold;
+        padding: 20px;
+    }
+}
+
